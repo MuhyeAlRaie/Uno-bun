@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.documentElement.classList.add("js");</script>
+  <!-- TODO(owner): verify all business details before publishing. See docs/CONTENT-EDITING.md -->
+  <title data-ar="UNO BUN | برجر وفريس بريميوم" data-en="UNO BUN | Premium Burgers &amp; Fries">UNO BUN | برجر وفريس بريميوم</title>
+  <meta name="description" content="أونو بن — برجر وفريس بطابع بريميوم رستك-مودرن. استكشف القائمة والعروض وتواصل معنا."
+        data-ar="أونو بن — برجر وفريس بطابع بريميوم رستك-مودرن. استكشف القائمة والعروض وتواصل معنا."
+        data-en="UNO BUN — premium rustic-modern burgers and fries. Explore the menu, our offers and get in touch."
+        data-attrs="content">
+  <meta name="theme-color" content="#0D2B23">
+  <link rel="canonical" href="https://uno-bun.vortishop.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="UNO BUN">
+  <meta property="og:locale" content="ar_JO">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:title" content="UNO BUN | برجر وفريس بريميوم">
+  <meta property="og:description" content="أونو بن — برجر وفريس بطابع بريميوم رستك-مودرن. استكشف القائمة والعروض وتواصل معنا.">
+  <meta property="og:url" content="https://uno-bun.vortishop.com/">
+  <meta property="og:image" content="https://uno-bun.vortishop.com/assets/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="وجبة برجر أونو بن مع البطاطا والكيس ذي العلامة التجارية">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/images/favicon-48.png">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&amp;family=Oswald:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">
+    <span class="lang-ar">تخطَّ إلى المحتوى</span><span class="lang-en">Skip to content</span>
+  </a>
+
+  <!-- ======================================================= HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="UNO BUN — الصفحة الرئيسية | Home">
+        <img src="assets/images/logo-forest.png" alt="شعار أونو بن | UNO BUN logo" width="50" height="46">
+        <span class="brand-text">
+          <span class="brand-name">UNO BUN</span>
+          <span class="brand-tagline">Burgers &amp; Fries</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="التنقل الرئيسي | Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page"><span class="lang-ar">الرئيسية</span><span class="lang-en">Home</span></a></li>
+          <li><a href="menu.html"><span class="lang-ar">القائمة</span><span class="lang-en">Menu</span></a></li>
+          <li><a href="offers.html"><span class="lang-ar">العروض</span><span class="lang-en">Offers</span></a></li>
+          <li><a href="franchise.html"><span class="lang-ar">الفرنشايز</span><span class="lang-en">Franchise</span></a></li>
+          <li><a href="contact.html"><span class="lang-ar">تواصل معنا</span><span class="lang-en">Contact</span></a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="lang-toggle" type="button" data-lang-toggle
+                aria-label="تغيير اللغة | Switch language" title="English / العربية">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2c2.7 2.7 4 6.2 4 10s-1.3 7.3-4 10c-2.7-2.7-4-6.2-4-10s1.3-7.3 4-10z"/>
+          </svg>
+          <!-- Shows the OTHER language name (pure CSS switch) -->
+          <span class="lang-ar">English</span><span class="lang-en">العربية</span>
+        </button>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="bars" aria-hidden="true"></span>
+          <span class="visually-hidden"><span class="lang-ar">فتح القائمة</span><span class="lang-en">Open menu</span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ========================================================= HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-bg" src="assets/images/hero-burger.jpg"
+           alt="" aria-hidden="true" width="1024" height="1038" fetchpriority="high">
+      <div class="container hero-inner">
+        <p class="kicker">Premium Rustic-Modern</p>
+        <h1 id="hero-title" class="hero-title">
+          <span class="lang-ar">برجر جريء. فريس ذهبي. بلمسة لا تُقاوم.</span>
+          <span class="lang-en">Bold Burgers. Golden Fries. Done Right.</span>
+        </h1>
+        <p class="hero-sub">
+          <span class="lang-ar">في أونو بن نُتقن الأساسيات: خبز طازج، لحم عالي الجودة، وبطاطا ذهبية مقرمشة — تجربة برجر بريميوم بروح رستك-مودرن.</span>
+          <span class="lang-en">At UNO BUN we perfect the essentials: fresh buns, quality beef and golden crispy fries — a premium burger experience with a rustic-modern soul.</span>
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn--sand btn--lg" href="menu.html">
+            <span class="lang-ar">استكشف قائمتنا</span><span class="lang-en">Explore Our Menu</span>
+          </a>
+          <a class="btn btn--ghost-light btn--lg" href="contact.html">
+            <span class="lang-ar">تواصل معنا</span><span class="lang-en">Contact Us</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================== FEATURED ITEMS -->
+    <section class="section" aria-labelledby="featured-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker"><span class="lang-ar">من المطبخ</span><span class="lang-en">From The Kitchen</span></p>
+          <h2 id="featured-title">
+            <span class="lang-ar">توقيعاتنا المميزة</span>
+            <span class="lang-en">Our Signature Picks</span>
+          </h2>
+          <p>
+            <span class="lang-ar">برجر توقيعنا وبطاطا الذهبية — تصنع الفرق في كل قضمة.</span>
+            <span class="lang-en">Signature burgers and golden fries — the difference is in every bite.</span>
+          </p>
+        </div>
+
+        <div class="grid grid--3">
+          <!-- NOTE: images are local placeholders. Replace with real product
+               photos and add prices when officially approved. -->
+          <article class="card reveal">
+            <figure class="card-media">
+              <img src="assets/images/uno-burger-placeholder.svg"
+                   alt="صورة توضيحية لبرجر يونو | Illustration of the Uno Burger"
+                   width="800" height="600" loading="lazy">
+            </figure>
+            <div class="card-body">
+              <h3><span class="lang-ar">برجر يونو</span><span class="lang-en">Uno Burger</span></h3>
+              <p>
+                <span class="lang-ar">برجر التوقيع: لحم بقري متبَّل بعناية، جبنة ذائبة، خضار طازجة وصلصة يونو الخاصة داخل خبز محمَّص.</span>
+                <span class="lang-en">The signature stack: seasoned beef, melted cheese, fresh toppings and our signature UNO sauce in a toasted bun.</span>
+              </p>
+              <!-- To publish a price (once officially supplied):
+                   <p class="price" dir="ltr">3.50 JD</p> -->
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <figure class="card-media">
+              <img src="assets/images/smoky-burger-placeholder.svg"
+                   alt="صورة توضيحية لبرجر سموكي | Illustration of the Smoky Burger"
+                   width="800" height="600" loading="lazy">
+            </figure>
+            <div class="card-body">
+              <h3><span class="lang-ar">برجر سموكي</span><span class="lang-en">Smoky Burger</span></h3>
+              <p>
+                <span class="lang-ar">نكهة مدخَّنة عميقة مع صلصة الباربكيو وجبنة شيدر مدخَّنة — لعشّاق الطعم الغني.</span>
+                <span class="lang-en">Deep smoky flavor with BBQ sauce and smoked cheddar — built for rich-flavor lovers.</span>
+              </p>
+              <!-- <p class="price" dir="ltr">-- JD</p> -->
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <figure class="card-media">
+              <img src="assets/images/smash-burger-placeholder.svg"
+                   alt="صورة توضيحية لسماش برجر | Illustration of the Smash Burger"
+                   width="800" height="600" loading="lazy">
+            </figure>
+            <div class="card-body">
+              <h3><span class="lang-ar">سماش برجر</span><span class="lang-en">Smash Burger</span></h3>
+              <p>
+                <span class="lang-ar">قطع لحم مضغوطة على الصاج بحواف مقرمشة وطبقات جبنة ذائبة — بساطة تُتقن الطعم.</span>
+                <span class="lang-en">Thin smashed patties with crispy edges and layers of melted cheese — simplicity perfected.</span>
+              </p>
+              <!-- <p class="price" dir="ltr">-- JD</p> -->
+            </div>
+          </article>
+        </div>
+
+        <p class="center mt-4 reveal">
+          <a class="btn btn--primary" href="menu.html">
+            <span class="lang-ar">تصفّح القائمة الكاملة</span><span class="lang-en">View The Full Menu</span>
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ================================================ BRAND INTRO -->
+    <section class="section section-alt" aria-labelledby="brand-title">
+      <div class="container feature-row">
+        <div class="feature-media reveal">
+          <img src="assets/images/brand-packaging.jpg" width="1024" height="1038" loading="lazy"
+               alt="وجبة أونو بن مع الكيس الورقي ذي العلامة التجارية على طاولة خشبية | UNO BUN meal with the branded paper bag on a wooden table">
+        </div>
+        <div class="feature-copy reveal">
+          <p class="kicker kicker--start"><span class="lang-ar">قصتنا</span><span class="lang-en">Our Brand</span></p>
+          <h2 id="brand-title">
+            <span class="lang-ar">أكثر من برجر — علامة بنكهة وشخصية</span>
+            <span class="lang-en">More Than a Burger — A Brand With Character</span>
+          </h2>
+          <p class="mt-2">
+            <span class="lang-ar">وُلدت فكرة أونو بن من إيمان بسيط: البرجر المميز لا يحتاج تعقيداً، بل إتقاناً. من الخبز إلى الصلصة، كل تفصيلة في وجبتك مصممة لتقدم تجربة متكاملة تجمع دفء الطابع الريفي وحداثة العرض البريميوم.</span>
+            <span class="lang-en">UNO BUN began with a simple belief: a great burger needs no complexity — only mastery. From the bun to the sauce, every detail of your meal is designed as one complete experience, blending rustic warmth with a premium, modern finish.</span>
+          </p>
+          <p>
+            <span class="lang-ar">هوية بصرية واضحة، قائمة مركّزة، وشغف حقيقي بالتفاصيل — هكذا نقدّم برجراً وفريساً يستحق أن يكون توقيعك المفضل. تصفّح القائمة، تعرّف على عروضنا، وتواصل معنا إن كنت تبحث عن فرصة فرنشايز.</span>
+            <span class="lang-en">A clear visual identity, a focused menu and a genuine passion for detail — that is how we serve burgers and fries worth calling your favorite. Browse the menu, discover our offers, or reach out about franchise opportunities.</span>
+          </p>
+          <p class="mt-3">
+            <a class="btn btn--outline" href="franchise.html">
+              <span class="lang-ar">فرص الفرنشايز</span><span class="lang-en">Franchise Opportunities</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ================================================== HIGHLIGHTS -->
+    <section class="section" aria-labelledby="highlights-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker"><span class="lang-ar">لماذا أونو بن</span><span class="lang-en">Why UNO BUN</span></p>
+          <h2 id="highlights-title">
+            <span class="lang-ar">ما يجعل كل وجبة مختلفة</span>
+            <span class="lang-en">What Makes Every Meal Different</span>
+          </h2>
+        </div>
+        <div class="highlights">
+          <article class="highlight reveal">
+            <div class="highlight-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2c1 3-1 4-1 6a3 3 0 0 0 6 .5C19 11 20 13 20 15a8 8 0 1 1-16 0c0-3 2-5.5 4-7 .5 2 2 2.6 3 2 .1-2.6-.6-5.5 1-8z"/></svg>
+            </div>
+            <h3><span class="lang-ar">مكونات عالية الجودة</span><span class="lang-en">Quality Ingredients</span></h3>
+            <p>
+              <span class="lang-ar">نختار مكوناتنا بعناية ونحضّر كل وجبة طازجة عند الطلب.</span>
+              <span class="lang-en">Carefully selected ingredients, every meal prepared fresh to order.</span>
+            </p>
+          </article>
+          <article class="highlight reveal">
+            <div class="highlight-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 6.1 6.6 1-4.8 4.7 1.2 6.7L12 17.3 6 20.5l1.2-6.7L2.4 9.1l6.6-1z"/></svg>
+            </div>
+            <h3><span class="lang-ar">نكهات جريئة</span><span class="lang-en">Bold Flavors</span></h3>
+            <p>
+              <span class="lang-ar">وصفات توقيع متوازنة تجمع المدخَّن والكريمي والقرمشة في كل قضمة.</span>
+              <span class="lang-en">Balanced signature recipes — smoky, creamy and crispy in every bite.</span>
+            </p>
+          </article>
+          <article class="highlight reveal">
+            <div class="highlight-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8M5 10v10h5v-6h4v6h5V10"/></svg>
+            </div>
+            <h3><span class="lang-ar">روح رستك-مودرن</span><span class="lang-en">Rustic-Modern Spirit</span></h3>
+            <p>
+              <span class="lang-ar">هوية دافئة وتفاصيل خشبية تجمع بين الأصالة والحداثة.</span>
+              <span class="lang-en">A warm identity and wooden details where authentic meets modern.</span>
+            </p>
+          </article>
+          <article class="highlight reveal">
+            <div class="highlight-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/></svg>
+            </div>
+            <h3><span class="lang-ar">ضيافة صادقة</span><span class="lang-en">Warm Hospitality</span></h3>
+            <p>
+              <span class="lang-ar">فريق يرحّب بك ويهتم بأدق التفاصيل من أول زيارة.</span>
+              <span class="lang-en">A team that welcomes you and cares about every detail from visit one.</span>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ FEATURED OFFER -->
+    <!-- SAMPLE CONTENT — replace with real, approved promotions before
+         publishing. See docs/CONTENT-EDITING.md -->
+    <section class="section section-alt" aria-labelledby="offers-teaser-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker"><span class="lang-ar">وفّر أكثر</span><span class="lang-en">Save More</span></p>
+          <h2 id="offers-teaser-title">
+            <span class="lang-ar">عروض تستحق التجربة</span>
+            <span class="lang-en">Offers Worth Trying</span>
+          </h2>
+        </div>
+        <article class="card reveal" style="max-width:640px;margin-inline:auto;">
+          <figure class="card-media">
+            <img src="assets/images/offer-placeholder.svg"
+                 alt="صورة توضيحية لعرض خاص | Illustration of a special offer"
+                 width="800" height="600" loading="lazy">
+            <span class="badge"><span class="lang-ar">نموذج</span><span class="lang-en">Sample</span></span>
+          </figure>
+          <div class="card-body">
+            <h3><span class="lang-ar">عرض الكومبو — نموذج</span><span class="lang-en">Combo Meal Offer — Sample</span></h3>
+            <p>
+              <span class="lang-ar">برجر يونو + بطاطا + مشروب. محتوى العرض والسعر يُحدَّثان عند التفعيل الرسمي.</span>
+              <span class="lang-en">Uno Burger + fries + a drink. Offer content and price will be updated upon official activation.</span>
+            </p>
+          </div>
+        </article>
+        <p class="center mt-4 reveal">
+          <a class="btn btn--primary" href="offers.html">
+            <span class="lang-ar">اكتشف كل العروض</span><span class="lang-en">Discover Our Offers</span>
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================================== FRANCHISE CTA -->
+    <section class="cta-band" aria-labelledby="franchise-cta-title">
+      <div class="container">
+        <p class="kicker"><span class="lang-ar">انمُ معنا</span><span class="lang-en">Grow With Us</span></p>
+        <h2 id="franchise-cta-title" class="mt-1">
+          <span class="lang-ar">افتح فرعك الخاص من أونو بن</span>
+          <span class="lang-en">Bring UNO BUN To Your City</span>
+        </h2>
+        <p>
+          <span class="lang-ar">علامة برجر بريميوم بهوية واضحة وقائمة مركّزة — انضم إلينا وابدأ رحلتك في عالم الأعمال الغذائية.</span>
+          <span class="lang-en">A premium burger brand with a clear identity and a focused menu — join us and start your food-business journey.</span>
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn--sand btn--lg" href="franchise.html">
+            <span class="lang-ar">فرص الفرنشايز</span><span class="lang-en">Franchise Opportunities</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================ CONTACT -->
+    <section class="section" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker"><span class="lang-ar">ابقَ على تواصل</span><span class="lang-en">Stay In Touch</span></p>
+          <h2 id="contact-title">
+            <span class="lang-ar">نسعد بزيارتك ورسائلكم</span>
+            <span class="lang-en">We Would Love To Hear From You</span>
+          </h2>
+        </div>
+        <div class="info-grid">
+          <!-- TODO(owner): replace ALL placeholder contact details with the
+               official information before publishing (see docs). -->
+          <div class="info-card reveal">
+            <div class="info-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13 1 .36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.45c.9.34 1.8.57 2.8.7A2 2 0 0 1 22 16.9z"/></svg>
+            </div>
+            <div>
+              <h3><span class="lang-ar">الهاتف</span><span class="lang-en">Phone</span></h3>
+              <!-- Replace with the official number, then wrap it in:
+                   <a href="tel:+962XXXXXXXXX" dir="ltr">...</a> -->
+              <p dir="ltr">+962 X XXX XXXX</p>
+            </div>
+          </div>
+          <div class="info-card reveal">
+            <div class="info-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+            </div>
+            <div>
+              <h3><span class="lang-ar">البريد الإلكتروني</span><span class="lang-en">Email</span></h3>
+              <!-- Replace with the official email address -->
+              <p dir="ltr">info@example.com</p>
+            </div>
+          </div>
+          <div class="info-card reveal">
+            <div class="info-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h3><span class="lang-ar">العنوان</span><span class="lang-en">Address</span></h3>
+              <!-- Pre-filled from brand packaging artwork — VERIFY before publishing -->
+              <p dir="ltr">New Zarqa — Al Flater St</p>
+            </div>
+          </div>
+        </div>
+        <p class="center mt-4 reveal">
+          <a class="btn btn--primary" href="contact.html">
+            <span class="lang-ar">صفحة التواصل الكاملة</span><span class="lang-en">Full Contact Page</span>
+          </a>
+        </p>
+      </div>
+    </section>
+</main>
+
+  <!-- ========================================================= FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/images/logo-sand.png" alt="شعار أونو بن | UNO BUN logo" width="70" height="64" loading="lazy">
+          <p>
+            <span class="lang-ar">برجر وفريس بطابع بريميوم رستك-مودرن.</span>
+            <span class="lang-en">Premium rustic-modern burgers &amp; fries.</span>
+          </p>
+        </div>
+        <nav class="footer-col" aria-label="روابط الموقع | Site links">
+          <h3><span class="lang-ar">روابط</span><span class="lang-en">Explore</span></h3>
+          <ul>
+            <li><a href="index.html"><span class="lang-ar">الرئيسية</span><span class="lang-en">Home</span></a></li>
+            <li><a href="menu.html"><span class="lang-ar">القائمة</span><span class="lang-en">Menu</span></a></li>
+            <li><a href="offers.html"><span class="lang-ar">العروض</span><span class="lang-en">Offers</span></a></li>
+            <li><a href="franchise.html"><span class="lang-ar">الفرنشايز</span><span class="lang-en">Franchise</span></a></li>
+            <li><a href="contact.html"><span class="lang-ar">تواصل معنا</span><span class="lang-en">Contact</span></a></li>
+          </ul>
+        </nav>
+        <div class="footer-col">
+          <h3><span class="lang-ar">تواصل</span><span class="lang-en">Contact</span></h3>
+          <ul>
+            <li><span class="lang-ar">العنوان:</span><span class="lang-en">Address:</span> <span dir="ltr">New Zarqa — Al Flater St</span></li>
+            <li><span class="lang-ar">هاتف:</span><span class="lang-en">Phone:</span> <span dir="ltr">+962 X XXX XXXX</span></li>
+            <li><span class="lang-ar">بريد:</span><span class="lang-en">Email:</span> <span dir="ltr">info@example.com</span></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3><span class="lang-ar">تابعنا</span><span class="lang-en">Follow</span></h3>
+          <ul>
+            <!-- TODO(owner): verify the official account + add other platforms -->
+            <li><a href="https://www.instagram.com/unobun.jo" target="_blank" rel="noopener" dir="ltr">@unobun.jo</a></li>
+            <!-- Add official Facebook / TikTok links here when available:
+            <li><a href="https://..." target="_blank" rel="noopener">Facebook</a></li>
+            -->
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span data-year="2026">2026</span> UNO BUN — <span class="lang-ar">جميع الحقوق محفوظة</span><span class="lang-en">All rights reserved</span></p>
+        <p class="kicker-mini">Premium Rustic-Modern</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/common.js"></script>
+</body>
+</html>

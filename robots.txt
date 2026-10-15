@@ -1,0 +1,6 @@
+# UNO BUN — uno-bun.vortishop.com
+# Allow all search engines; point to the sitemap.
+User-agent: *
+Allow: /
+
+Sitemap: https://uno-bun.vortishop.com/sitemap.xml

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="34%" r="80%">
+      <stop offset="0%" stop-color="#123830"/>
+      <stop offset="100%" stop-color="#0D2B23"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="26" y="26" width="748" height="518" fill="none"
+        stroke="#D9B98C" stroke-opacity="0.5" stroke-width="2"/>
+  <circle cx="26" cy="26" r="4" fill="#D9B98C"/>
+  <circle cx="774" cy="26" r="4" fill="#D9B98C"/>
+  <circle cx="26" cy="544" r="4" fill="#D9B98C"/>
+  <circle cx="774" cy="544" r="4" fill="#D9B98C"/>
+  <text x="48" y="66" fill="#D9B98C" opacity=".55"
+        font-family="Oswald, 'Arial Narrow', Arial, sans-serif"
+        font-size="15" font-weight="700" letter-spacing="4">UNO BUN</text>
+  <path d="M 275.0 220
+           a 85.0 56 0 0 1 170 0
+           v 6 a 10 10 0 0 1 -10 10
+           h -150
+           a 10 10 0 0 1 -10 -10
+           z" fill="#D9B98C"/><ellipse cx="308" cy="188" rx="7" ry="3.4" fill="#F4EAD5" opacity=".9" transform="rotate(-24 308 188)"/><ellipse cx="342" cy="178" rx="7" ry="3.4" fill="#F4EAD5" opacity=".9" transform="rotate(8 342 178)"/><ellipse cx="376" cy="182" rx="7" ry="3.4" fill="#F4EAD5" opacity=".9" transform="rotate(-6 376 182)"/><ellipse cx="410" cy="192" rx="7" ry="3.4" fill="#F4EAD5" opacity=".9" transform="rotate(20 410 192)"/><ellipse cx="324" cy="181" rx="7" ry="3.4" fill="#F4EAD5" opacity=".9" transform="rotate(32 324 181)"/><ellipse cx="394" cy="179" rx="7" ry="3.4" fill="#F4EAD5" opacity=".9" transform="rotate(-18 394 179)"/><rect x="265.0" y="290" width="190" height="18" fill="#3E6B52"/><circle cx="277.0" cy="296" r="13" fill="#3E6B52"/><circle cx="301.0" cy="296" r="13" fill="#3E6B52"/><circle cx="325.0" cy="296" r="13" fill="#3E6B52"/><circle cx="349.0" cy="296" r="13" fill="#3E6B52"/><circle cx="373.0" cy="296" r="13" fill="#3E6B52"/><circle cx="397.0" cy="296" r="13" fill="#3E6B52"/><circle cx="421.0" cy="296" r="13" fill="#3E6B52"/>
+  <rect x="272.0" y="280" width="176" height="12" rx="6" fill="#EEDFC2"/><path d="M 294.0 280 q 0 16 0 20 a 7 7 0 0 1 -14 0 v -20 z" fill="#EEDFC2"/><path d="M 350.0 280 q 0 16 0 20 a 7 7 0 0 1 -14 0 v -20 z" fill="#EEDFC2"/><path d="M 412.0 280 q 0 16 0 20 a 7 7 0 0 1 -14 0 v -20 z" fill="#EEDFC2"/><rect x="269.0" y="310" width="182" height="24" rx="12.0" fill="#5D4030"/><rect x="278.0" y="344" width="164" height="26" rx="14" fill="#D9B98C"/><rect x="560" y="200" width="17" height="120" rx="8" fill="#EEDFC2" transform="rotate(-12 568.5 260.0)"/><rect x="600" y="186" width="17" height="140" rx="8" fill="#D9B98C" transform="rotate(0 608.5 256.0)"/><rect x="636" y="204" width="17" height="118" rx="8" fill="#EEDFC2" transform="rotate(12 644.5 263.0)"/>
+  <path d="M 548.0 306 h 120 l -12 88 a 10 10 0 0 1 -10 9
+           h -76 a 10 10 0 0 1 -10 -9 z" fill="#D9B98C"/>
+  <rect x="548.0" y="300" width="120" height="14" rx="7" fill="#EEDFC2"/>
+  <text x="608" y="372" text-anchor="middle" fill="#0D2B23"
+        font-family="Oswald, 'Arial Narrow', Arial, sans-serif"
+        font-size="21" font-weight="700" letter-spacing="2">UNO BUN</text><path d="M 236 160 l 34 0 -10 -26 52 34 -20 4 12 26 -52 -34 z" fill="#D9B98C" opacity=".9"/>
+  
+  <text x="400" y="472" text-anchor="middle" fill="#D9B98C"
+        font-family="Oswald, 'Arial Narrow', Arial, sans-serif"
+        font-size="30" font-weight="700" letter-spacing="4">SPECIAL OFFER</text>
+  <text x="400" y="512" text-anchor="middle" fill="#EEDFC2" opacity=".95"
+        font-family="Cairo, Tahoma, Arial, sans-serif"
+        font-size="24" font-weight="700">عرض خاص</text>
+  <text x="752" y="576" text-anchor="end" fill="#EEDFC2" opacity=".45"
+        font-family="Arial, sans-serif" font-size="12">PLACEHOLDER IMAGE</text>
+</svg>

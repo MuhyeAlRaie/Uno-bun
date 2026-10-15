@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="34%" r="80%">
+      <stop offset="0%" stop-color="#123830"/>
+      <stop offset="100%" stop-color="#0D2B23"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="26" y="26" width="748" height="518" fill="none"
+        stroke="#D9B98C" stroke-opacity="0.5" stroke-width="2"/>
+  <circle cx="26" cy="26" r="4" fill="#D9B98C"/>
+  <circle cx="774" cy="26" r="4" fill="#D9B98C"/>
+  <circle cx="26" cy="544" r="4" fill="#D9B98C"/>
+  <circle cx="774" cy="544" r="4" fill="#D9B98C"/>
+  <text x="48" y="66" fill="#D9B98C" opacity=".55"
+        font-family="Oswald, 'Arial Narrow', Arial, sans-serif"
+        font-size="15" font-weight="700" letter-spacing="4">UNO BUN</text>
+  <g fill="none" stroke="#EEDFC2" stroke-width="7" stroke-linecap="round" opacity=".55">
+    <path d="M 340 240 q 18 -22 0 -44 q -16 -20 2 -40"/>
+    <path d="M 400 232 q 20 -24 0 -48 q -16 -20 2 -42"/>
+    <path d="M 460 240 q 18 -22 0 -44 q -16 -20 2 -40"/>
+  </g>
+  <path d="M 305.0 216
+           a 95.0 64 0 0 1 190 0
+           v 6 a 10 10 0 0 1 -10 10
+           h -170
+           a 10 10 0 0 1 -10 -10
+           z" fill="#D9B98C"/><ellipse cx="348" cy="184" rx="7" ry="3.4" fill="#F4EAD5" opacity=".9" transform="rotate(-24 348 184)"/><ellipse cx="382" cy="174" rx="7" ry="3.4" fill="#F4EAD5" opacity=".9" transform="rotate(8 382 174)"/><ellipse cx="416" cy="178" rx="7" ry="3.4" fill="#F4EAD5" opacity=".9" transform="rotate(-6 416 178)"/><ellipse cx="450" cy="188" rx="7" ry="3.4" fill="#F4EAD5" opacity=".9" transform="rotate(20 450 188)"/><ellipse cx="364" cy="177" rx="7" ry="3.4" fill="#F4EAD5" opacity=".9" transform="rotate(32 364 177)"/><ellipse cx="434" cy="175" rx="7" ry="3.4" fill="#F4EAD5" opacity=".9" transform="rotate(-18 434 175)"/>
+  <rect x="302.0" y="288" width="196" height="12" rx="6" fill="#EEDFC2"/><path d="M 324.0 288 q 0 16 0 20 a 7 7 0 0 1 -14 0 v -20 z" fill="#EEDFC2"/><path d="M 380.0 288 q 0 16 0 20 a 7 7 0 0 1 -14 0 v -20 z" fill="#EEDFC2"/><path d="M 462.0 288 q 0 16 0 20 a 7 7 0 0 1 -14 0 v -20 z" fill="#EEDFC2"/><rect x="300.0" y="322" width="200" height="26" rx="13.0" fill="#5D4030"/><rect x="306.0" y="344" width="188" height="26" rx="13.0" fill="#8A5A33"/><rect x="310.0" y="358" width="180" height="30" rx="14" fill="#D9B98C"/>
+  
+  <text x="400" y="472" text-anchor="middle" fill="#D9B98C"
+        font-family="Oswald, 'Arial Narrow', Arial, sans-serif"
+        font-size="30" font-weight="700" letter-spacing="4">SMOKY BURGER</text>
+  <text x="400" y="512" text-anchor="middle" fill="#EEDFC2" opacity=".95"
+        font-family="Cairo, Tahoma, Arial, sans-serif"
+        font-size="24" font-weight="700">برجر سموكي</text>
+  <text x="752" y="576" text-anchor="end" fill="#EEDFC2" opacity=".45"
+        font-family="Arial, sans-serif" font-size="12">PLACEHOLDER IMAGE</text>
+</svg>

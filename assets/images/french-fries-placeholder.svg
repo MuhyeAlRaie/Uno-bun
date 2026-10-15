@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="34%" r="80%">
+      <stop offset="0%" stop-color="#123830"/>
+      <stop offset="100%" stop-color="#0D2B23"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="26" y="26" width="748" height="518" fill="none"
+        stroke="#D9B98C" stroke-opacity="0.5" stroke-width="2"/>
+  <circle cx="26" cy="26" r="4" fill="#D9B98C"/>
+  <circle cx="774" cy="26" r="4" fill="#D9B98C"/>
+  <circle cx="26" cy="544" r="4" fill="#D9B98C"/>
+  <circle cx="774" cy="544" r="4" fill="#D9B98C"/>
+  <text x="48" y="66" fill="#D9B98C" opacity=".55"
+        font-family="Oswald, 'Arial Narrow', Arial, sans-serif"
+        font-size="15" font-weight="700" letter-spacing="4">UNO BUN</text><rect x="330" y="170" width="17" height="150" rx="8" fill="#EEDFC2" transform="rotate(-14 338.5 245.0)"/><rect x="372" y="150" width="17" height="175" rx="8" fill="#D9B98C" transform="rotate(-4 380.5 237.5)"/><rect x="415" y="158" width="17" height="168" rx="8" fill="#EEDFC2" transform="rotate(5 423.5 242.0)"/><rect x="452" y="176" width="17" height="148" rx="8" fill="#D9B98C" transform="rotate(14 460.5 250.0)"/><rect x="348" y="168" width="17" height="140" rx="8" fill="#E5CFA9" transform="rotate(-8 356.5 238.0)"/><rect x="434" y="170" width="17" height="138" rx="8" fill="#E5CFA9" transform="rotate(9 442.5 239.0)"/>
+  <path d="M 325.0 290 h 150 l -12 110 a 10 10 0 0 1 -10 9
+           h -106 a 10 10 0 0 1 -10 -9 z" fill="#D9B98C"/>
+  <rect x="325.0" y="284" width="150" height="14" rx="7" fill="#EEDFC2"/>
+  <text x="400" y="356" text-anchor="middle" fill="#0D2B23"
+        font-family="Oswald, 'Arial Narrow', Arial, sans-serif"
+        font-size="21" font-weight="700" letter-spacing="2">UNO BUN</text>
+  
+  <text x="400" y="472" text-anchor="middle" fill="#D9B98C"
+        font-family="Oswald, 'Arial Narrow', Arial, sans-serif"
+        font-size="30" font-weight="700" letter-spacing="4">FRENCH FRIES</text>
+  <text x="400" y="512" text-anchor="middle" fill="#EEDFC2" opacity=".95"
+        font-family="Cairo, Tahoma, Arial, sans-serif"
+        font-size="24" font-weight="700">بطاطا مقلية</text>
+  <text x="752" y="576" text-anchor="end" fill="#EEDFC2" opacity=".45"
+        font-family="Arial, sans-serif" font-size="12">PLACEHOLDER IMAGE</text>
+</svg>

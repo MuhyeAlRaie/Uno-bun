@@ -1,0 +1,15 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor junk
+*.swp
+*~
+.vscode/
+.idea/
+
+# Build artifacts (this site needs no build — keep it clean anyway)
+*.log
+node_modules/
+dist/

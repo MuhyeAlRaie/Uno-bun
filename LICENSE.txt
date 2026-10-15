@@ -1,0 +1,30 @@
+UNO BUN Website — License
+=========================
+
+Copyright (c) 2026 UNO BUN — Burgers and Fries. All rights reserved.
+
+1. Brand assets (NOT covered by the MIT license below)
+   The UNO BUN name, logo files, brand colors, packaging photography and
+   all other supplied brand materials are the property of UNO BUN.
+   They may not be copied, modified or redistributed outside this
+   website project without the owner's written permission.
+
+2. Website source code (MIT License)
+   Permission is hereby granted, free of charge, to any person obtaining
+   a copy of the HTML, CSS and JavaScript source code of this website
+   (excluding the brand assets listed in section 1), to deal in the
+   software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or
+   sell copies of the software, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be
+   included in all copies or substantial portions of the software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+   NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.

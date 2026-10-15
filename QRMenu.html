@@ -21,6 +21,8 @@
           the official pages, or delete those buttons if unused.
        3. Instagram handle is pre-filled from brand materials
           (@unobun.jo) — verify it is the official account.
+       4. Prices: every "X.XX" below is a PLACEHOLDER shown in Jordanian
+          Dinar (JOD / د.أ) — replace each X.XX with the official price.
        No ordering / payment / data collection exists on this page.
        ============================================================ -->
   <title data-ar="قائمة QR | UNO BUN" data-en="QR Menu | UNO BUN" data-attrs="text">قائمة QR | UNO BUN</title>
@@ -125,6 +127,15 @@
     .thumb svg{inline-size:56px;block-size:56px}
     .item h3{font-size:1.04rem;color:var(--forest)}
     .item p{font-size:.86rem;color:var(--ink-soft);margin-block-start:2px}
+    /* Placeholder price (JOD): the dashed underline marks it as
+       "to be confirmed" — switch it to a solid border once the
+       official price list is in. */
+    .price{
+      display:inline-block;margin-block-start:8px;
+      font-family:'Oswald','Cairo',sans-serif;font-weight:700;font-size:1.02rem;
+      letter-spacing:.03em;color:var(--forest);
+      border-block-end:1px dashed var(--sand-2);cursor:help;
+    }
     .note{margin-block:26px 0;text-align:center;font-size:.85rem;color:var(--ink-soft)}
 
     /* ---- Social + Google review ---- */
@@ -229,9 +240,11 @@
         <p class="cat-sub"><span class="lang-ar">الفئة الأولى</span><span class="lang-en">Category 01</span></p>
         <h2 id="t-burgers"><span class="lang-ar">البرجر</span><span class="lang-en">Burgers</span></h2>
         <div class="list">
-          <!-- NOTE: prices are intentionally omitted until the official
-               price list is supplied. Pattern to add a price:
-               <p class="price" dir="ltr">3.50 JD</p> -->
+          <!-- NOTE: prices are shown as PLACEHOLDERS in Jordanian Dinar
+               (JOD / د.أ). "X.XX" is intentional — it is NOT a real price.
+               TODO(owner): replace each X.XX with the official price, then
+               delete the data-placeholder attribute (or make the dashed
+               underline solid) once the price list is confirmed. -->
           <article class="item">
             <span class="thumb" aria-hidden="true">
               <svg viewBox="0 0 64 64"><use href="#i-burger"/></svg>
@@ -242,6 +255,8 @@
                 <span class="lang-ar">برجر التوقيع: لحم بقري متبَّل بعناية، جبنة ذائبة، خضار طازجة وصلصة يونو الخاصة داخل خبز محمَّص.</span>
                 <span class="lang-en">The signature stack: seasoned beef, melted cheese, fresh toppings and our signature UNO sauce in a toasted bun.</span>
               </p>
+              <!-- TODO(owner): official price in JOD -->
+              <p class="price" dir="ltr" data-placeholder="true"><span class="lang-ar">X.XX د.أ</span><span class="lang-en">X.XX JOD</span></p>
             </div>
           </article>
           <article class="item">
@@ -254,6 +269,8 @@
                 <span class="lang-ar">نكهة مدخَّنة عميقة مع صلصة الباربكيو وجبنة شيدر مدخَّنة — لعشّاق الطعم الغني.</span>
                 <span class="lang-en">Deep smoky flavor with BBQ sauce and smoked cheddar — built for rich-flavor lovers.</span>
               </p>
+              <!-- TODO(owner): official price in JOD -->
+              <p class="price" dir="ltr" data-placeholder="true"><span class="lang-ar">X.XX د.أ</span><span class="lang-en">X.XX JOD</span></p>
             </div>
           </article>
           <article class="item">
@@ -266,6 +283,8 @@
                 <span class="lang-ar">قطع لحم مضغوطة على الصاج بحواف مقرمشة وطبقات جبنة ذائبة — بساطة تُتقن الطعم.</span>
                 <span class="lang-en">Thin smashed patties with crispy edges and layers of melted cheese — simplicity perfected.</span>
               </p>
+              <!-- TODO(owner): official price in JOD -->
+              <p class="price" dir="ltr" data-placeholder="true"><span class="lang-ar">X.XX د.أ</span><span class="lang-en">X.XX JOD</span></p>
             </div>
           </article>
         </div>
@@ -287,6 +306,8 @@
                 <span class="lang-ar">بطاطا ذهبية مقرمشة من الخارج وطرية من الداخل، تُتبَّل بملح البحر وتقدَّم مع صوصاتنا الخاصة.</span>
                 <span class="lang-en">Golden fries — crispy outside, fluffy inside — finished with sea salt and served with our signature dips.</span>
               </p>
+              <!-- TODO(owner): official price in JOD -->
+              <p class="price" dir="ltr" data-placeholder="true"><span class="lang-ar">X.XX د.أ</span><span class="lang-en">X.XX JOD</span></p>
             </div>
           </article>
           <article class="item">
@@ -299,6 +320,8 @@
                 <span class="lang-ar">بطاطا حلوة بلون كراميلي وطعم دافئ متوازن بين الحلاوة والقرمشة.</span>
                 <span class="lang-en">Caramel-toned sweet potato fries with a warm, balanced sweetness and a crisp bite.</span>
               </p>
+              <!-- TODO(owner): official price in JOD -->
+              <p class="price" dir="ltr" data-placeholder="true"><span class="lang-ar">X.XX د.أ</span><span class="lang-en">X.XX JOD</span></p>
             </div>
           </article>
         </div>
@@ -308,8 +331,8 @@
     <!-- ============================== NOTE ================================ -->
     <section class="wrap">
       <p class="note">
-        <span class="lang-ar">الأسعار والمكوّنات التفصيلية متوفرة لدى فريقنا داخل المطعم. الرسوم المعروضة توضيحية وستُستبدل بالصور الرسمية للمنتجات.</span>
-        <span class="lang-en">Prices and detailed ingredient information are available from our team in-store. Shown illustrations are placeholders and will be replaced with official product photography.</span>
+        <span class="lang-ar">جميع الأسعار بالدينار الأردني (د.أ). للاستفسار عن المكوّنات أو الحساسية، يسعد فريقنا بخدمتكم داخل المطعم. الرسوم المعروضة توضيحية وستُستبدل بالصور الرسمية للمنتجات.</span>
+        <span class="lang-en">All prices are in Jordanian Dinar (JOD). For ingredients or allergen questions, our team will gladly help you in-store. Shown illustrations are placeholders and will be replaced with official product photography.</span>
       </p>
     </section>
 
